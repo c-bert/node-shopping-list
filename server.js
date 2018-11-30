@@ -26,7 +26,7 @@ ShoppingList.create('beans', 2);
 ShoppingList.create('tomatoes', 3);
 ShoppingList.create('peppers', 4);
 
-Recipes.create('hot chocolate', ['coca', 'milk', 'sugar']);
+Recipes.create('hot chocolate', ['cocoa', 'milk', 'sugar', 'marshmallows']);
 // when the root of this route is called with GET, return
 // all current ShoppingList items by calling `ShoppingList.get()`
 app.get('/shopping-list', (req, res) => {
